@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+#navbar li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navbar {
+    list-style: none;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+#navbar li a:hover {
+    color: #32CD32;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(to right, #228b22, #006994);
+}
+
+#formreg {
+    background-color: #97BC62FF;
+}
+
+#formreg button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#formreg table {
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+}
+
+#formreg h1 {
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    font-weight: 300;
+}
+
+#formreg td {
+    display: block;
+    font-weight: bold;
+}
+
+#formreg input[type="text"],
+#formreg input[type="password"],
+#formreg textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.notif {
+    text-align: center;
+    background-color: red;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 11px;
+}
+
+
+/*login*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2C5F2D;
+}
+
+.box {
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #97BC62FF;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 35px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background: #2ecc71;
+}
+
+#bg-page-profile {
+    overflow: hidden;
+}
+
+#menu-profile {
+    float: left;
+    width: 245px;
+    background-color: #97BC62FF;
+}
+
+#menu-profile ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu-profile ul li a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px
+}
+
+#menu-profile ul li a:hover {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #32CD32;
+}
+
+#profile-content {
+    float: left;
+    width: 835px;
+    padding: 10px;
+    background-color: #008080;
+}
+
+#menu-profile ul li a.active {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #3498db;
+}
+
+.element-form label {
+    display: block;
+}
+
+.element-form input[type="submit"] {
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.element-form input[type="submit"]:hover {
+    background-color: black;
+}
+
+.tombol-action {
+    border: 2px solid gold;
+    text-decoration: none;
+    color: black;
+    padding: 7px 15px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+.tombol-action:hover {
+    background-color: whitesmoke;
+}
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-list .baris-title {
+    background: #32CD32;
+}
+
+.table-list tr th,
+.table-list tr td {
+    padding: 10px 7px;
+}
+
+.kolom-nomer {
+    width: 20px;
+    text-align: center;
+}
+
+.kiri {
+    text-align: left;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    text-align: right;
+}
+
+#frame-tambah {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.element-form span select {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    white-space: pre;
+    padding: 0px 2px 1px;
+    min-height: 1.2em;
+}
+
+.element-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    white-space: pre;
+    padding: 0px 2px 1px;
+    min-height: 1.2em;
+}
+
+.element-form span textarea {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    white-space: pre;
+    padding: 0px 2px 1px;
+    min-height: 1.2em;
+}
+
+#kiri {
+    width: 245px;
+    height: auto;
+    float: left;
+}
+
+#menu-kategori ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-kategori ul li {
+    margin-bottom: 5px;
+}
+
+#menu-kategori ul li a {
+    display: block;
+    padding: 10px;
+    background: #32CD32;
+    color: #1e5474;
+    text-decoration: none;
+}
+
+#menu-kategori ul li a:hover {
+    background: black;
+}
+
+#kanan {
+    width: 840px;
+    margin-left: 15px;
+    height: auto;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1fr 1fr);
+}
+
+#kanan #frame-villa ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#kanan #frame-villa ul li {
+    width: 240px;
+    background: whitesmoke;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    float: left;
+}
+
+#kanan #frame-villa ul li .price {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#kanan #frame-villa ul li a img {
+    display: block;
+    width: 200px;
+}
+
+#kanan #frame-villa ul li .keterangan-gambar {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0px;
+    height: 50px;
+}
+
+#kanan #frame-villa ul li .keterangan-gambar p {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#kanan #frame-villa ul li .keterangan-gambar p a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#kanan #frame-villa ul li .keterangan-gambar span {
+    display: block;
+    text-align: center;
+}
+
+#detail-villa {
+    background: white;
+    padding: 15px;
+}
+
+#detail-villa h2 {
+    margin-top: 0px;
+}
+
+#detail-villa #frame-gambar {
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+#detail-villa #frame-gambar img {
+    display: block;
+    margin: 0px auto;
+}
+
+#detail-villa #frame-harga {
+    margin: 15px 0px;
+}
+
+#detail-villa #frame-harga span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#detail-villa #keterangan {
+    margin: 20px 0px;
+}
